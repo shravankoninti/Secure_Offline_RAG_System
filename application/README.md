@@ -40,6 +40,12 @@ source env/bin/activate  # Linux/Mac
 ```
 
 3. Install dependencies:
+* Before we jump on to requirements.txt - We need to run separately
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+```
+* Now we can go to this requirements.txt file
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -56,11 +62,11 @@ python streamlit run app.py
 * Access the application through your web browser (typically http://localhost:8501)
 
 ### Using the Interface:
-* 1. Upload documents using the sidebar
-* 1.Select your preferred response language (English/French)
-* 1.Click "Process Documents" to index your uploaded files
-* 1.Start chatting with the system about your documents
-* 1.Download chat history as PDF when needed
+* 1.Upload documents using the sidebar
+* 2.Select your preferred response language (English/French)
+* 3.Click "Process Documents" to index your uploaded files
+* 4.Start chatting with the system about your documents
+* 5.Download chat history as PDF when needed
 
 
 ## Document Support
