@@ -1,0 +1,19 @@
+2024-11-13 16:45:19 - INFO - Configuration:
+2024-11-13 16:45:19 - INFO - train: E:\\shravan\\personal_projects\\trustio\\RAG\\train.csv
+2024-11-13 16:45:19 - INFO - test: E:\\shravan\\personal_projects\\trustio\\RAG\\test.csv
+2024-11-13 16:45:19 - INFO - model: Qwen/Qwen2.5-14B-Instruct
+2024-11-13 16:45:19 - INFO - output: outputs
+2024-11-13 16:45:19 - INFO - batch_size: 8
+2024-11-13 16:45:19 - INFO - seed: 42
+2024-11-13 16:45:19 - INFO - Initializing RAG system...
+2024-11-13 16:45:36 - INFO - Loading and processing training data...
+2024-11-13 16:45:36 - INFO - Loaded 2424 training examples
+2024-11-13 16:45:38 - INFO - Processing test data...
+2024-11-13 16:45:38 - INFO - Processing 1040 test queries with batch size 8
+2024-11-13 18:08:39 - INFO - Results saved to outputs\submission_20241113_180839.csv
+2024-11-13 18:08:39 - INFO - 
+Execution Statistics:
+2024-11-13 18:08:39 - INFO - Total queries processed: 1039
+2024-11-13 18:08:39 - INFO - Failed queries: 1
+2024-11-13 18:08:39 - INFO - Success rate: 99.90%
+2024-11-13 18:08:39 - INFO - Execution time: 01:23:20
