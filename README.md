@@ -2,7 +2,7 @@
 # Secure Offline RAG System
 
 ## Overview
-This system implements an Ensemble Retrieval-Augmented Generation (RAG) approach for answering questions about  different things which includes a variety of content types, such as general text, technical documentation, and code snippets extracted from a standard. It uses advanced text processing, embeddings, and language models to provide accurate responses to any technical queries.
+This system implements a multilingual Retrieval-Augmented Generation (RAG)  approach for answering questions about  different things which includes a variety of content types, such as general text, technical documentation, and code snippets extracted from a standard. It uses advanced text processing, embeddings, and language models to provide accurate responses to any technical queries.
 
 ## Features
 - Enhanced text splitting with context preservation
